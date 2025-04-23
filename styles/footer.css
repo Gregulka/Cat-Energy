@@ -1,0 +1,37 @@
+.footer {
+    background-color: #F2F2F2;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__logo-cat-energy {
+    display: flex;
+}
+
+.footer__logo-cat-energy a:hover {
+    opacity: 0.7;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.footer__logo-html-academy a {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    align-items: center;
+    color: #444444;
+    text-decoration: none;
+}
+
+.footer__logo-html-academy a:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,43 @@
+
+.procedures__title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 31px;
+}
+
+.procedures-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 81px;
+}
+
+.procedures-list__cards {
+    display: flex;
+    flex-direction: column;
+    max-height: 280px;
+    padding-top: 40px;
+    color: #444444;
+}
+
+.procedures-list__content {
+    z-index: 3;
+}
+
+.procedures-list__content img {
+    margin-bottom: 31px;
+}
+
+.procedures-list__number-box {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 220px;
+}
+
+.procedures-list__cards span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 280px;
+    line-height: 280px;
+    color: #F2F2F2;
+}

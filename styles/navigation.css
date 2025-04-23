@@ -1,0 +1,26 @@
+.header__navigation {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 50%;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 33px;
+    margin-bottom: 32px;
+}
+
+.navigation__list a {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.navigation__list a:hover {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #FFFFFF;
+}
+

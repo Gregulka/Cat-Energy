@@ -1,0 +1,131 @@
+
+.example__title {
+    padding: 69px 0 110px 20px;
+}
+
+.example__title h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.container-grey {
+    background-color: #F2F2F2;
+}
+
+.example__content {
+    display: flex;
+
+}
+
+.example__content-info {
+    padding: 70px 134px 75px 0;
+}
+
+.content-info__paragraph {
+    color: #444444;
+    margin-bottom: 69px;
+}
+
+.example__content-info, .example__content-slide {
+    width: 50%;
+}
+
+.example__results {
+    display: flex;
+    gap: 42px;
+}
+
+.weight-result, .day-result {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    text-align: center;
+    width: 162px;
+    height: 77px;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.weight-result span, .day-result span {
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #F2F2F2;
+    position: relative;
+    top: 32px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.weight-result p, .day-result p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    position: relative;
+    top: 18px;
+}
+
+.content-info__price-box {
+    display: flex;
+    gap: 20px;
+}
+
+.content-info__price-box span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.example__slider-box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+
+.example__content-images {
+    display: flex;
+    margin-top: -200px;
+}
+
+.content-slide__image {
+    width: 50%;
+    height: 540px;
+}
+
+.image-left {
+    background-image: url("../images/before-desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.image-right {
+    background-image: url("../images/after-desktop.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.example__slider {
+    display: flex;
+    gap: 20px;
+}
+
+.example__slider span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+#slider {
+    -webkit-appearance: none;
+    width: 100%;
+    background: #DCDCDC;
+    height: 6px;
+    align-self: center;
+    border-radius: 2px;
+}

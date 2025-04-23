@@ -1,0 +1,46 @@
+.program-info {
+    padding-top: 82px;
+    margin-bottom: 71px;
+}
+
+.program-info__content {
+    display: flex;
+    gap: 80px;
+}
+
+.program-info__card {
+    padding: 41px 51px 55px 52px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    background-color: #F2F2F2;
+}
+
+.program-info__title {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 39px;
+}
+
+.program-info__description p {
+    margin-bottom: 23px;
+}
+
+.program-info__description a {
+    display: flex;
+    gap: 28px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.program-info__description a:hover {
+    opacity: 0.7;
+}
