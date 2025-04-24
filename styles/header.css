@@ -1,7 +1,7 @@
 .header {
     padding-top: 71px;
     display: flex;
-
+    margin-bottom: 82px;
 }
 
 .header__logo {
@@ -19,7 +19,6 @@
 .header__content {
     display: flex;
     gap: 260px;
-    margin-bottom: 82px;
 }
 
 .start-screen {
@@ -27,6 +26,7 @@
 }
 
 .start-screen__info {
+    padding-left: 80px;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -71,6 +71,6 @@
 }
 
 .header__navigation-bottle {
-    height: 562px;
+    height: 540px;
     margin-left: -290px;
 }
