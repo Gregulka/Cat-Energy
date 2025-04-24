@@ -6,38 +6,47 @@
     margin-bottom: 31px;
 }
 
-.procedures-list {
+.procedures__list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 81px;
 }
 
-.procedures-list__cards {
+.procedures__list-card {
     display: flex;
     flex-direction: column;
-    max-height: 280px;
-    padding-top: 40px;
+    position: relative;
     color: #444444;
+    padding-bottom: 57px;
 }
 
-.procedures-list__content {
+.card__content {
     z-index: 3;
 }
 
-.procedures-list__content img {
+.card__content-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    background: #68B738;
     margin-bottom: 31px;
 }
 
-.procedures-list__number-box {
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 220px;
+.card__content-image-box img {
+    width: 32px;
+    height: 30px;
 }
 
-.procedures-list__cards span {
+.card__number-box {
+    position: absolute;
+    top: 89px;
+    right: 0;
+}
+
+.card__number-box span {
     font-family: 'Oswald', sans-serif;
     font-size: 280px;
-    line-height: 280px;
     color: #F2F2F2;
 }

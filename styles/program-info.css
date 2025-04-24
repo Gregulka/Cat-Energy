@@ -1,22 +1,21 @@
 .program-info {
-    padding-top: 82px;
     margin-bottom: 71px;
 }
 
 .program-info__content {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 80px;
 }
 
 .program-info__card {
     padding: 41px 51px 55px 52px;
     display: flex;
-    width: 50%;
     flex-direction: column;
     background-color: #F2F2F2;
 }
 
-.program-info__title {
+.card__title {
     display: flex;
     align-items: center;
     gap: 62px;
@@ -25,13 +24,32 @@
     font-size: 36px;
     line-height: 36px;
     margin-bottom: 39px;
+    position: relative;
 }
 
-.program-info__description p {
+.card__title-icon {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #68B738;
+    width: 100px;
+    height: 100px;
+}
+
+.card__title-icon img{
+    position: absolute;
+    top: -9px;
+}
+
+.icon-pro img{
+    top: 20px;
+}
+
+.card__description p {
     margin-bottom: 23px;
 }
 
-.program-info__description a {
+.card__description a {
     display: flex;
     gap: 28px;
     font-family: 'Oswald', sans-serif;
@@ -41,6 +59,6 @@
     text-decoration: none;
 }
 
-.program-info__description a:hover {
+.card__description a:hover {
     opacity: 0.7;
 }

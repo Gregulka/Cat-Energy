@@ -1,9 +1,15 @@
 .header {
+    padding-top: 71px;
     display: flex;
+
 }
 
 .header__logo {
-    padding: 53px 0 0 110px;
+    margin-bottom: 111px;
+}
+
+.header__logo a {
+    display: flex;
 }
 
 .header__logo a:hover {
@@ -12,10 +18,8 @@
 
 .header__content {
     display: flex;
-}
-
-.header__navigation {
-    padding-top: 71px;
+    gap: 260px;
+    margin-bottom: 82px;
 }
 
 .start-screen {
@@ -24,7 +28,6 @@
 
 .start-screen__info {
     font-family: 'Oswald', sans-serif;
-    padding: 111px 0 0 80px;
 }
 
 .start-screen__info h1 {
@@ -53,10 +56,6 @@
 }
 
 .header__navigation-background {
-    background-image: url(../images/index-background-desktop.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 671px;
     width: 50%;
     position: absolute;
@@ -65,11 +64,13 @@
     z-index: -1;
 }
 
-.header__navigation-bottle {
-    background-image: url("../images/index-can.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.header__navigation-background img {
+    object-fit: cover;
     width: 100%;
-    height: 542px;
-    margin-left: -176px;
+    height: 100%;
+}
+
+.header__navigation-bottle {
+    height: 562px;
+    margin-left: -290px;
 }
