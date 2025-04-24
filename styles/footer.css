@@ -12,6 +12,7 @@
 
 .footer__logo-cat-energy {
     display: flex;
+    align-items: center;
 }
 
 .footer__logo-cat-energy a:hover {
