@@ -147,13 +147,12 @@
 
     .content-info-tablet-container {
         display: flex;
-        gap: 150px;
+        justify-content: space-between;
     }
 
     .content-info__price-box {
         gap: 5px;
         flex-direction: column;
-        padding-top: 11px;
     }
 
     .content-info__price-box span {

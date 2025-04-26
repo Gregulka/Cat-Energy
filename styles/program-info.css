@@ -67,10 +67,11 @@
 
 .program-info-tablet__card {
     display: flex;
-    gap: 17px;
+    gap: 35px;
     justify-content: space-between;
     background-color: #F2F2F2;
     padding: 77px 62px 57px 52px;
+    position: relative;
 }
 
 .program-info-tablet__content {
@@ -134,6 +135,16 @@
     }
 
     .program-info-tablet {
-        display: block;
+        display: flex;
+    }
+    .icon-pro {
+        position: absolute;
+    }
+    .icon-pro img{
+        width: 268px;
+        height: auto;
+    }
+    .program-info-tablet__card{
+
     }
 }

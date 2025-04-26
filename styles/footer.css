@@ -48,7 +48,6 @@
     padding: 65px 90px 65px 76px;
     position: absolute;
     top: 95px;
-    left: 315px;
     background-color: white;
     max-width: 570px;
     height: auto;
@@ -78,15 +77,20 @@
 }
 
 @media screen and (max-width: 768px) {
+    .map .container{
+        background-color: white;
+    }
     .map__contacts {
         display: flex;
-        gap: 203px;
         justify-content: space-between;
         position: static;
         padding: 65px 90px 65px 76px;
         background-color: white;
         max-width: 100%;
         height: auto;
+    }
+    .contacts__title {
+        max-width: 218px;
     }
     .contacts__address{
         align-items: flex-end;
