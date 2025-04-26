@@ -1,0 +1,66 @@
+.start-screen-tablet {
+    padding-top: 62px;
+}
+
+.start-screen-tablet-container {
+    font-family: 'Oswald', sans-serif;
+    margin: 0 auto;
+    min-width: 420px;
+    max-width: 851px;
+    padding: 0 20px;
+}
+
+.start-screen-tablet__content h1 {
+
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 41px;
+}
+
+.start-screen-tablet__content p {
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 49px;
+}
+
+.start-screen-tablet__content-button {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #68B738;
+    padding: 14px 26px;
+}
+
+.start-screen-tablet__content-bottle {
+    position: relative;
+    top: -85px;
+    object-fit: contain;
+    z-index: -1;
+}
+
+.program-info-tablet__card-image-box {
+    position: relative;
+}
+
+.program-info-tablet__card-image-box img {
+    position: absolute;
+}
+
+.program-info-tablet__card-image-box .icon-pro img {
+    height: 200px;
+    width: 268px;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .start-screen-tablet {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    .start-screen-tablet {
+        display: none;
+    }
+}

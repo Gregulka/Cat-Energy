@@ -74,3 +74,29 @@
     height: 540px;
     margin-left: -290px;
 }
+
+.header-tablet {
+    display: none;
+    padding-top: 24px;
+}
+
+.header-tablet__content-logo {
+    max-width: 174px;
+    height: auto;
+}
+
+@media screen and (min-width: 1301px) {
+    .header-tablet {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .header {
+        display: none;
+    }
+
+    .header-tablet {
+        display: block;
+    }
+}

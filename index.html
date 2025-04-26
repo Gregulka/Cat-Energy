@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="styles/procedures.css">
     <link rel="stylesheet" href="styles/example.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/start-screen-tablet.css">
 </head>
 <body>
 <header class="header">
@@ -45,7 +46,37 @@
         </div>
     </div>
 </header>
+<header class="header-tablet">
+    <div class="container">
+        <div class="header-tablet__content">
+            <div class="header-tablet__content-logo">
+                <a href="#"><img src="assets/icons/logo-desktop.svg" alt="Логотип"></a>
+            </div>
+            <div class="header-tablet__content-navigation">
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#">Главная</a></li>
+                        <li class="navigation__item"><a href="#">Каталог продукции</a></li>
+                        <li class="navigation__item"><a href="#">Подбор программы</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
 <main>
+    <div class="start-screen-tablet">
+        <div class="start-screen-tablet-container">
+            <div class="start-screen-tablet__content">
+                <h1>Функциональное питание для котов</h1>
+                <p>занялся собой? займись котом!</p>
+                <button class="start-screen-tablet__content-button">подобрать программу</button>
+                <div class="start-screen-tablet__content-bottle">
+                    <img src="assets/images/index-can.svg" alt="Контейнер">
+                </div>
+            </div>
+        </div>
+    </div>
     <section class="program-info">
         <div class="container">
             <div class="program-info__content">
@@ -82,6 +113,47 @@
                         </a>
                     </div>
 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="program-info-tablet">
+        <div class="container">
+            <div class="program-info-tablet__content">
+                <div class="program-info-tablet__card">
+                    <div class="program-info-tablet__card-content">
+                        <div class="card-content__title">
+                            <h3>похудение</h3>
+                        </div>
+                        <div class="card-content__description">
+                            <p>Ваш кот весит больше собаки и почти утратил способность
+                                лазить по деревьям? Пора на диету! Cat Energy Slim поможет
+                                вашему питомцу сбросить лишний вес.</p>
+                            <a href="#">каталог slim
+                                <img src="assets/icons/icon_arrow.svg" alt="Стрелка">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="program-info-tablet__card-image-box">
+                        <img src="assets/icons/cat-slim.svg" alt="Худой кот">
+                    </div>
+                </div>
+                <div class="program-info-tablet__card">
+                    <div class="program-info-tablet__card-content">
+                        <div class="card-content__title">
+                            <h3>набор массы</h3>
+                        </div>
+                        <div class="card-content__description">
+                            <p>Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет
+                                вашему коту нарастить необходимые мышцы!</p>
+                            <a href="#">каталог pro
+                                <img src="assets/icons/icon_arrow.svg" alt="Стрелка">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="program-info-tablet__card-image-box icon-pro">
+                        <img src="assets/icons/cat-pro.svg" alt="Худой кот">
+                    </div>
                 </div>
             </div>
         </div>
@@ -158,19 +230,21 @@
                         обычный корм на Cat Energy Slim. Отличный результат
                         без изнуряющих тренировок! При этом он не менял своих
                         привычек и по-прежнему спит по 16 часов в день. </p>
-                    <div class="content-info__results">
-                        <div class="result">
-                            <p>5 кг</p>
-                            <span>снижение веса</span>
+                    <div class="content-info-tablet-container">
+                        <div class="content-info__results">
+                            <div class="result">
+                                <p>5 кг</p>
+                                <span>снижение веса</span>
+                            </div>
+                            <div class="result">
+                                <p>60 дней</p>
+                                <span>снижение веса</span>
+                            </div>
                         </div>
-                        <div class="result">
-                            <p>60 дней</p>
-                            <span>снижение веса</span>
+                        <div class="content-info__price-box">
+                            <span>затраты на питание:</span>
+                            <span>15.000 руб.</span>
                         </div>
-                    </div>
-                    <div class="content-info__price-box">
-                        <span>затраты на питание:</span>
-                        <span>15.000 руб.</span>
                     </div>
                 </div>
                 <div class="example__slider-box">
@@ -192,6 +266,28 @@
         </div>
     </section>
     <footer class="footer">
+        <section class="map">
+            <div class="map__contacts container">
+                <div class="contacts__title">
+                    <h4>
+                        приглашаем к сотрудничеству
+                        дилеров!
+                    </h4>
+                </div>
+                <div class="contacts__address">
+                    <p>ул. Большая
+                        Конюшенная, д. 19/8</p>
+                    <p>Санкт-Петербург</p>
+                </div>
+                <div class="map-pin">
+                    <img src="assets/icons/map%20pin.png.svg" alt="Указатель на карте">
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4805.775530816418!2d36.07279787645107!3d52.96843339072341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41321a0978f19af3%3A0xb0b9955b0cbf9424!2z0J7RgNGR0LssINCe0YDQu9C-0LLRgdC60LDRjyDQvtCx0Lsu!5e0!3m2!1sru!2sru!4v1745675986538!5m2!1sru!2sru"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
         <div class="container">
             <div class="footer__content">
                 <div class="footer__logo-cat-energy">

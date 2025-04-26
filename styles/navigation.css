@@ -24,3 +24,32 @@
     border-bottom: 2px solid #FFFFFF;
 }
 
+.header-tablet__content {
+    display: flex
+}
+
+.header-tablet__navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1300px) {
+    .navigation__list{
+        margin-bottom: 0;
+    }
+    .navigation__item a {
+        font-size: 18px;
+        color: black;
+    }
+    .header-tablet__content{
+        justify-content: space-between;
+    }
+    .header-tablet__content-navigation {
+        display: flex;
+        align-items: flex-end;
+    }
+    .navigation__list a:hover {
+        padding-bottom: 8px;
+        border-bottom: 3px solid #68B738;
+    }
+}

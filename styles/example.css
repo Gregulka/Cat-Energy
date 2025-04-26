@@ -1,6 +1,7 @@
 
 .example__title {
-    padding: 69px 0 76px 20px;
+    padding-top: 69px;
+    padding-bottom: 76px;
 }
 
 .example__title h2 {
@@ -15,7 +16,7 @@
 
 .example__content {
     display: flex;
-
+    padding-bottom: 67px;
 }
 
 .example__content-info {
@@ -117,4 +118,45 @@
     height: 6px;
     align-self: center;
     border-radius: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .example__content {
+        flex-direction: column;
+    }
+
+    .slider-box__content-images {
+        margin-top: 0;
+    }
+
+    .example__content-info {
+        padding-top: 0;
+    }
+
+    .example__content-info, .content-info__paragraph, .example__slider-box {
+        width: 100%;
+    }
+
+    .container-grey {
+        background: linear-gradient(to bottom, white 55%, #F2F2F2 45%);
+    }
+
+    .result span {
+        background-color: white;
+    }
+
+    .content-info-tablet-container {
+        display: flex;
+        gap: 150px;
+    }
+
+    .content-info__price-box {
+        gap: 5px;
+        flex-direction: column;
+        padding-top: 11px;
+    }
+
+    .content-info__price-box span {
+        text-align: end;
+    }
 }

@@ -32,16 +32,16 @@
     justify-content: center;
     border-radius: 50%;
     background-color: #68B738;
-    width: 100px;
+    min-width: 100px;
     height: 100px;
 }
 
-.card__title-icon img{
+.card__title-icon img {
     position: absolute;
     top: -9px;
 }
 
-.icon-pro img{
+.icon-pro img {
     top: 20px;
 }
 
@@ -61,4 +61,79 @@
 
 .card__description a:hover {
     opacity: 0.7;
+}
+
+/*АДАПТИВ ПЛАНШЕТ*/
+
+.program-info-tablet__card {
+    display: flex;
+    gap: 17px;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding: 77px 62px 57px 52px;
+}
+
+.program-info-tablet__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-bottom: 45px;
+}
+
+.program-info-tablet__card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.program-info-tablet__card-image-box {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #68B738;
+    min-width: 200px;
+    height: 200px;
+}
+
+.program-info-tablet__card-image-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-content__title {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 24px;
+}
+
+.card-content__description p {
+    margin-bottom: 48px;
+}
+
+.card-content__description a {
+    display: flex;
+    gap: 28px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 769px) {
+    .program-info-tablet {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .program-info {
+        display: none;
+    }
+
+    .program-info-tablet {
+        display: block;
+    }
 }
