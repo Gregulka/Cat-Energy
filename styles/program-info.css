@@ -4,7 +4,7 @@
 
 .program-info__content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 80px;
 }
 
@@ -15,7 +15,7 @@
     background-color: #F2F2F2;
 }
 
-.card__title {
+.card__top {
     display: flex;
     align-items: center;
     gap: 62px;
@@ -27,7 +27,7 @@
     position: relative;
 }
 
-.card__title-icon {
+.card__top-icon {
     display: flex;
     justify-content: center;
     border-radius: 50%;
@@ -36,20 +36,20 @@
     height: 100px;
 }
 
-.card__title-icon img {
+.card__top-icon img {
     position: absolute;
-    top: -9px;
+    top: -5px;
 }
 
 .icon-pro img {
-    top: 20px;
+    top: 22px;
 }
 
-.card__description p {
+.card__bottom p {
     margin-bottom: 23px;
 }
 
-.card__description a {
+.card__bottom a {
     display: flex;
     gap: 28px;
     font-family: 'Oswald', sans-serif;
@@ -59,8 +59,12 @@
     text-decoration: none;
 }
 
-.card__description a:hover {
-    opacity: 0.7;
+.card__bottom a:hover svg{
+   width: 30px;
+}
+
+.card__bottom a:active {
+    opacity: 30%;
 }
 
 /*АДАПТИВ ПЛАНШЕТ*/
@@ -71,7 +75,6 @@
     justify-content: space-between;
     background-color: #F2F2F2;
     padding: 77px 62px 57px 52px;
-    position: relative;
 }
 
 .program-info-tablet__content {
@@ -95,12 +98,7 @@
     height: 200px;
 }
 
-.program-info-tablet__card-image-box img {
-    width: 100%;
-    height: 100%;
-}
-
-.card-content__title {
+.card-content__top {
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-size: 36px;
@@ -108,11 +106,11 @@
     margin-bottom: 24px;
 }
 
-.card-content__description p {
+.card-content__bottom p {
     margin-bottom: 48px;
 }
 
-.card-content__description a {
+.card-content__bottom a {
     display: flex;
     gap: 28px;
     font-family: 'Oswald', sans-serif;
@@ -137,14 +135,22 @@
     .program-info-tablet {
         display: flex;
     }
-    .icon-pro {
+
+    .program-info-tablet__card {
+        position: relative;
+    }
+
+    .program-info-tablet__card-image-box img {
         position: absolute;
     }
-    .icon-pro img{
-        width: 268px;
-        height: auto;
-    }
-    .program-info-tablet__card{
 
+    .icon-slim img {
+        width: 140px;
+        top: 70px;
+    }
+
+    .icon-pro img {
+        width: 268px;
+        top: 125px;
     }
 }

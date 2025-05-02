@@ -8,7 +8,7 @@
 
 .procedures__list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(244px, 1fr));
     gap: 81px;
 }
 
@@ -51,8 +51,11 @@
     color: #F2F2F2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     .procedures__list {
-        gap: 150px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        row-gap: 150px;
     }
 }
+

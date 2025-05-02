@@ -99,6 +99,10 @@
     height: 540px;
 }
 
+.content-images__image img {
+    pointer-events: none;
+}
+
 .slider-box__slider {
     display: flex;
     gap: 20px;
@@ -112,12 +116,21 @@
 }
 
 #slider {
-    -webkit-appearance: none;
+    appearance: none;
     width: 100%;
     background: #DCDCDC;
     height: 6px;
     align-self: center;
-    border-radius: 2px;
+    border-radius: 6px;
+}
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #CDCDCD;
+    border-radius: 50%;
+    background: #68B738;
+    box-shadow: 0 0 0 14px inset white, 0 1px 3px 0  rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 768px) {
