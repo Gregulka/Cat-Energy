@@ -1,0 +1,141 @@
+.additional-products {
+    margin-bottom: 86px;
+}
+
+.additional-products__content-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 80px;
+    padding-top: 92px;
+}
+
+.additional-products__content-info-table {
+    grid-column: span 3;
+    text-align: left;
+    border-collapse: collapse;
+    border-top: 1px solid #CDCDCD;
+}
+
+.additional-products__content-info-table th {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #222222;
+    text-transform: uppercase;
+    border-bottom: 1px solid #CDCDCD;
+}
+
+.additional-products__content-info-table td {
+    line-height: 20px;
+    color: #444444;
+    border-bottom: 1px solid #CDCDCD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.additional-products__content-info-card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: url("../assets/images/gift-photo-desktop.png") no-repeat;
+    background-size: cover;
+    padding: 56px 42px 42px 42px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 47px;
+}
+
+.card-content p {
+    color: white;
+    line-height: 20px;
+}
+
+.card-content img, .card-image p {
+    display: block;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .additional-products__content-info-table {
+        grid-column: span 2;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .additional-products__content-title {
+        margin-left: 0;
+    }
+
+    .additional-products__content-info {
+        display: none;
+    }
+
+    .additional-products__content-info-card {
+        width: 100%;
+        padding: 59px 124px 59px 78px;
+    }
+
+    .additional-products__content-info-tablet {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        gap: 69px;
+    }
+
+    .additional-products__content-info-tablet-table {
+        border-collapse: collapse;
+
+    }
+
+    .table__card {
+        width: 100%;
+        padding: 28px 40px;
+        border: 1px solid #CDCDCD;
+
+    }
+
+    .card-content {
+        width: 100%;
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .card-content p {
+        max-width: 165px;
+        text-align: start;
+    }
+
+    .table__card th {
+        width: 30%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    .table__card td {
+        width: 35%;
+        text-align: right;
+    }
+
+
+}
+
+@media screen and (min-width: 961px) {
+    .additional-products__content-info-tablet {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .main-button {
+        margin-top: 26px;
+    }
+}
